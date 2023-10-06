@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+
+}
+
+#navbar {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+
+#navbar>div {
+    display: flex;
+    gap: 20px
+}
+
+.icon {
+    font-size: 25px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+/* profile css */
+
+#profile {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+button {
+    padding: 5px 14px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+
+}
+
+input {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+
+.icons {
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 2px 6px;
+    border-radius: 7px;
+}

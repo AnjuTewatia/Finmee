@@ -1,0 +1,179 @@
+.contanier {
+    display: flex;
+    width: 97%;
+    color: white;
+    margin: auto;
+}
+
+.first-cont,
+.second-cont,
+.third-cont {
+    padding: 15px;
+    border-right: 1px solid grey;
+}
+
+/* first comtainer  */
+.first-cont input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: green;
+    padding: 5px
+}
+
+
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.allrepo {
+    text-align: left;
+
+}
+
+.allrepo>div {
+    display: flex;
+    gap: 9px;
+    padding-left: 10px;
+
+}
+
+img {
+    width: 10%;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+
+.morebutton {
+    text-align: left;
+    border: none;
+}
+
+/*  second container
+
+/* send-cont home  */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.repository {
+    padding-left: 10px
+}
+
+/* trending section of part2 container */
+.trending {
+    display: flex;
+    gap: 20px;
+}
+
+.see {
+    color: blue;
+}
+
+.feed {
+    display: flex;
+    gap: 20px
+}
+
+span {
+    font-weight: bold;
+    color: aquamarine;
+    margin-right: 7px;
+}
+
+.feed>p:nth-child(2) {
+    border: 1px solid grey;
+    padding: 1px 7px;
+    border-radius: 5px;
+}
+
+
+
+.send-feedback,
+.learn-more {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.filter-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+
+
+.activity,
+.updates-section,
+.trending-section {
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*  bottom of part two */
+
+.bottom {
+
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+.bottom>p:nth-child(2) {
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(199, 197, 197);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+h2 {
+    text-align: left;
+}
+
+.activity {
+    border-style: dashed;
+}
+
+
+.trending-repositories {
+    color: grey;
+}
+
+/* third container */
+.boxes {
+    border: 1px solid #e1e4e8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.boxes>button {
+    width: 100%;
+}
