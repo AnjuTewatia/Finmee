@@ -54,7 +54,7 @@ const Home = () => {
               <p>Anju/bigbasket</p>
             </div>
 
-            {/* ... Repeat similar list items for each repo */}
+            {/* more repo to  with show more button */}
           </div>
           <p className="morebutton">show more</p>
 
@@ -85,12 +85,12 @@ const Home = () => {
             </div>
           </div>
           <div className="updates-section">
-            <h4>Updates to your homepage feed</h4>
+            <h4>Updates to new page</h4>
             <p>
               We've combined the power of the Following feed with the For you
-              feed so there’s one place to discover content on GitHub. There’s
+              feed so there's one place to discover content on GitHub. There's
               improved filtering so you can customize your feed exactly how you
-              like it, and a shiny new visual design. ✨
+              like it, and a shiny new visual design.
             </p>
             <a className="learn-more" href="#">
               Learn more

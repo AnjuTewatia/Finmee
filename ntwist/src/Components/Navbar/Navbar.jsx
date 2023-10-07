@@ -29,14 +29,14 @@ function NavLink() {
     <div className={`navbar ${scrolling ? "navbar-white" : ""}`}>
       <div>
         <div id="navbar">
-          {/* Logo */}
+          {/* Logo of ntwist */}
           <div>
             <img
               src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"
               alt=""
             />
           </div>
-          {/*  Second half  */}
+          {/*  details of the company*/}
           <div id="second">
             <h4>Home</h4>
             <h4> Industries</h4>

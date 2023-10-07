@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
       <div id="container">
         <div id="navbar">
-          {/* dashboad section */}
+          {/* dashboard section */}
           <div id="nav">
             <div className="icon">
               <HiOutlineMenu />
@@ -23,7 +23,7 @@ const Navbar = () => {
             <p>Dashboard</p>
           </div>
 
-          {/* profile section */}
+          {/* profile section and icons */}
           <div id="profile">
             <input type="text" placeholder="Type / to search" />
             <button> + </button>

@@ -102,14 +102,6 @@ span {
     border-radius: 5px;
 }
 
-
-
-.send-feedback,
-.learn-more {
-    text-decoration: none;
-    margin-right: 10px;
-}
-
 .activity,
 .updates-section,
 .trending-section {
@@ -124,7 +116,6 @@ span {
 /*  bottom of part two */
 
 .bottom {
-
     border: 1px solid white;
     border-radius: 5px;
     margin-bottom: 10px;

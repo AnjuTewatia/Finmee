@@ -1,21 +1,16 @@
 .container {
     width: 90%;
     position: relative;
-    top: 10px;
+    /* top: 10px; */
     margin: auto;
-
-
 }
 
 .container1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* column-gap: 15px; */
     margin: auto;
     margin-top: 4rem;
-
-
 }
 
 .container2 {
@@ -29,7 +24,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* column-gap: 15px; */
     margin: auto;
     margin-top: 4rem;
 
@@ -63,14 +57,12 @@
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 h1 {
     color: red;
     font-size: 40px;
 }
-
 
 @media screen and (min-width: 375px) and (max-width:720px) {
     .container {
@@ -90,7 +82,6 @@ h1 {
 
     .cont1 {
         display: grid;
-
         grid-template-columns: "repeat(2,1fr)";
         align-items: center;
         justify-content: center;
@@ -101,8 +92,8 @@ h1 {
 
     .images {
         width: 95%;
-        /* height: 60%; */
         object-fit: cover;
+        margin-top: 2px
     }
 
     .container2 {
@@ -115,8 +106,8 @@ h1 {
 
     .cont2 {
         display: block;
-        text-align: left;
         width: 90%;
+        text-align: left;
         margin: auto;
         margin-bottom: 3rem;
     }

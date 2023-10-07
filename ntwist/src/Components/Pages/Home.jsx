@@ -14,7 +14,7 @@ const Home = () => {
       <Box>
         {/*  background image */}
         <Box
-          height="670px"
+          height="740px"
           backgroundRepeat="no-repeat"
           backgroundSize="cover"
           backgroundImage="url(https://www.miningmonthly.com/w-images/d734243d-c0c2-45ce-a6a6-9d3ecba6ed32/2/Dassault-1680x600.png)"
@@ -39,6 +39,7 @@ const Home = () => {
               </Box>
             </SimpleGrid>
           </Box>
+          {/* flag  in background image */}
           <Box marginLeft={"30px"} position="fixed">
             <Button padding={"30px 10px"}>
               <Image

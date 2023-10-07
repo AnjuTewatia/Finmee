@@ -83,7 +83,7 @@ const Body = () => {
               <p>
                 NTWIST offers a number of solutions for mills, concentrators,
                 and leach plants. Our solutions help operations to reduce the
-                effect of feed variability, avoid downtime, and increase peak
+                effect of feed variability, avoid downtime and increase peak
                 throughput while decreasing energy and reagent consumption.
               </p>
               <button className={style.button}>Read More</button>
@@ -110,11 +110,17 @@ const Body = () => {
             <h1>Oil & Gas</h1>
             <div className={style.text}>
               <p>
+                Oil and Gas plants require a high level of control and
+                robustness in their operation due to the high risks to people
+                and environment.
+              </p>
+              <p>
                 NTWIST helps Oil & Gas customers to analyze historical data,
                 identify opportunities for process control improvements, and
                 reduce variability in any part of the process, thus providing
                 enhanced reliability and safety.
               </p>
+
               <button className={style.button}>Read More</button>
             </div>
           </div>
